@@ -1,0 +1,1 @@
+ALTER TABLE `facultyCategory` ADD `code` VARCHAR(100) NULL DEFAULT NULL AFTER `name`;

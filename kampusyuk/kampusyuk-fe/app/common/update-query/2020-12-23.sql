@@ -1,0 +1,1 @@
+ALTER TABLE article ADD isFeatured BOOL DEFAULT FALSE AFTER thumbnail;

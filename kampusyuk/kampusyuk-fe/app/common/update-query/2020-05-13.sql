@@ -1,0 +1,3 @@
+ALTER TABLE `kampusyuk`.`student` ADD COLUMN `address` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL AFTER `religion`;
+ALTER TABLE `kampusyuk`.`student` ADD COLUMN `schoolFrom` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL AFTER `nationality`;
+ALTER TABLE `kampusyuk`.`student` ADD COLUMN `universityFrom` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL AFTER `schoolFrom`;

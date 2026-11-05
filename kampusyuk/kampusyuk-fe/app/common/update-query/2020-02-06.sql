@@ -1,0 +1,2 @@
+ALTER TABLE `admission`
+	ADD COLUMN `schoolFrom` VARCHAR(255) NULL DEFAULT NULL AFTER `remark`;

@@ -1,0 +1,14 @@
+{
+	"/auth/login": {
+		"post": {
+			"Valid User": {
+				"email" : "kincat@gmail.com",
+				"password" : "123456"
+			},
+			"Invalid User": {
+				"email" : "admin111@gmail.com",
+				"password" : "123456"
+			}
+		}
+	}
+}

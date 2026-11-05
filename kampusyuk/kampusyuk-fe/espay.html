@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dummy Espay</title>
+</head>
+<body>
+    <h1>simulasi espay dummy</h1>
+
+    <iframe id="sgoplus-iframe" src="" scrolling="no" frameborder="0"></iframe>
+</body>
+
+<script src="https://sandbox-kit.espay.id/public/signature/js"></script>
+<script>
+    const data = {
+        bankCode: "008", // <- dari endpoint /espay/channel/list (dari property: bankCode)
+        bankProduct: "MANDIRIATM", // <- dari endpoint /espay/channel/list (dari property: productCode)
+        key: "cc4b1fabc55a98581edc7ab66ccf7926", // <- espay apiKey
+        paymentId: "202006250015", // <- dari server, di return setelah daftar admission
+        backUrl: "http://localhost:63342/kampusyuk-front-api/espay-backUrl.html"
+    };
+
+    sgoPlusIframe = document.getElementById("sgoplus-iframe");
+    if (sgoPlusIframe !== null) sgoPlusIframe.src = SGOSignature.getIframeURL(data);
+    SGOSignature.receiveForm();
+
+</script>
+</html>

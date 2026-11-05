@@ -1,0 +1,1 @@
+INSERT INTO `adminAcl` (`adminId`, `name`) VALUES ('1', 'ENGLISH_PREPARATION');

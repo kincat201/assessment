@@ -1,0 +1,4 @@
+export const RedisConstant = {
+	ESPAY_CHANNEL_LIST: 'KY_ESPAY_CHANNEL_LIST',
+	ESPAY_VA_NUMBER: 'VA_NUMBER'
+};

@@ -1,0 +1,1 @@
+INSERT INTO `adminAcl` (`adminId`, `name`) VALUES ('1', 'ADMISSION_REPORT');

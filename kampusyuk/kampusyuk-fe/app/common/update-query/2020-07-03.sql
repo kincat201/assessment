@@ -1,0 +1,1 @@
+INSERT INTO `kampusyuk`.`adminAcl` (`adminId`, `name`) VALUES ('1', 'TRANSACTION_DELETE');

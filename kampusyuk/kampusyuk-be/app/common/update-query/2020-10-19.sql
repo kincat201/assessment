@@ -1,0 +1,1 @@
+UPDATE admission SET status = 'FAILED' WHERE status = 'CANCELLED'
