@@ -1,0 +1,17 @@
+.page-content {  
+  /*background: url(../logo/sayap.jpg) no-repeat right;*/
+  background-color: #fff; 
+}
+
+.page-sidebar > ul > li.active > a {
+  background: #129AD6 !important;  
+  border-top-color: transparent !important;
+  color:#fff;
+} 
+
+.footer {
+  padding: 8px 20px 5px 20px; 
+  font-size: 12px;
+  /*background-image: url('../logo/background-ga.jpg');*/
+  color: #ffffff;
+}
